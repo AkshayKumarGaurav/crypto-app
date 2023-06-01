@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import SinglePage from './pages/singlepage';
+import SinglePage from './pages/SinglePage';
 function App() {
   return (
     <div className="App">

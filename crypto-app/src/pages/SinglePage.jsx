@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import "../App.css"
 
 const CoinList = ({ coins, onSelectCoin }) => {
   return (
     <table>
       <thead>
         <tr>
-          <th>Image</th>
-          <th>Name</th>
+          <th>Coin Image</th>
+          <th>Coin Name</th>
           <th>Symbol</th>
           <th>Current Price</th>
           <th>Price Change 24h</th>
